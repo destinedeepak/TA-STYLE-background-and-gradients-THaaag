@@ -56,10 +56,16 @@ body{
     line-height: 1.2;
     font-size: 16px;
     font-family: 'Karla', sans-serif;
+    background-attachment: fixed;
 }
 .flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 .container{
@@ -71,11 +77,11 @@ body{
 .header{
     text-align: center;
     padding-top: 20px;
-    font-weight: 600;
 }
 .header h1{
     font-size: 32px;
     color: white;
+    font-weight: 600;
 }
 /* main  */
 .hero{
@@ -83,7 +89,8 @@ body{
 }
 .box{
     text-align: center;
-    padding: 130px 165px;
+    width: 30%;
+    height: 300px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 800;
@@ -104,7 +111,7 @@ body{
    padding: 0 100px;
 }
 .big-box{
-    background: linear-gradient(rgba(151,70,50,0.7),rgba(151,70,50,0.7)),url("../media/wide1.jpg");
+    background: linear-gradient(transparent,rgba(237,20,62,0.5  )),url("../media/wide1.jpg");
     width: 1150px;
     height: 450px;
     background-size: cover;
